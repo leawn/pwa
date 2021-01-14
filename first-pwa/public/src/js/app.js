@@ -14,3 +14,5 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt = e;
     return false;
 });
+
+const promise = new Promise((resolve, reject) => {});
